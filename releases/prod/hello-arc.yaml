@@ -13,7 +13,7 @@ spec:
     image:
       repository: normseq/hello-arc
       tag: latest
-    replicaCount: 10
+    replicaCount: 1
     env:
       name: MESSAGE
       value: Azure Arc enabled K8s GitOps Demo!
